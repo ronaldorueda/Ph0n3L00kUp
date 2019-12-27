@@ -1,6 +1,8 @@
 #created and coded by ronaldorueda aka setin07
 #main will get phone number and access json files
 
+import requests
+
 #everything is separate depending on API requirements
 nationCode = input("Enter national code number: +")
 phoneNum = input("Enter phone number: ")
