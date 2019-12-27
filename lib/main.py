@@ -1,7 +1,12 @@
 #created and coded by ronaldorueda aka setin07
 #main will get phone number and access json files
 
+#everything is separate depending on API requirements
 nationCode = input("Enter national code number: +")
-phoneNum = input("Enter phone number with following format xxx-xxx-xxxx: ")
+phoneNum = input("Enter phone number: ")
+phone = nationCode + phoneNum
 
-print("+" + nationCode + phoneNum)
+print(phone)
+
+#will quit program
+exit = input ("Press enter to exit.")
