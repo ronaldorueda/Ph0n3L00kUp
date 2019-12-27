@@ -14,5 +14,8 @@ print(phone)
 
 print("\n")
 
+response = requests.get("https://www.truepeoplesearch.com/reverse-phone-lookup")
+print(response.status_code)
+
 #will quit program
 exit = input ("Press enter to exit.")
